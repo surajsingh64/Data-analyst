@@ -1,0 +1,5 @@
+def sum_of_floored_to_tens(a:int, b:int):
+    a_floored = (a // 10) * 10
+    b_floored = (b // 10) * 10
+    return a_floored + b_floored
+sum_of_floored_to_tens(96,78)

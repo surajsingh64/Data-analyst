@@ -1,0 +1,10 @@
+def number_with_more_unique_digits(n1:int, n2:int):
+    s1=set(str(n1))
+    s2=set(str(n2))
+    if len(s1)>len(s2):
+        return n1
+    elif len(s1)<len(s2):
+        return n2
+    else :
+        return n1,n2
+number_with_more_unique_digits(1234,423213)
